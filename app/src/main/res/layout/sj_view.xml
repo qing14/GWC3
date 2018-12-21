@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#335f9f9f">
+    <CheckBox
+        android:id="@+id/sj_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/sj_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="商家1"
+        android:textSize="24dp"
+        android:layout_marginLeft="10dp"/>
+</LinearLayout>
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/recycleView_shop"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+   </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
